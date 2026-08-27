@@ -2,730 +2,109 @@
 
 # 🩺 MediCare
 
-### <strong>Doctor Consultation & Appointment Management System</strong>
+### Doctor Consultation & Appointment Management System
 
-<p>
-  <em>Connect • Consult • Care</em>
-</p>
+**Connect • Consult • Care**
 
-<p>
-  A modern Java Swing desktop application that brings
-  <strong>patients, doctors, appointments, authentication and email communication</strong>
-  together in one integrated system.
-</p>
+A Java Swing desktop application for connecting patients with doctors,
+booking appointments, managing profiles, and handling appointment notifications.
 
 <br>
 
-<img src="https://img.shields.io/badge/Java-26-orange?style=for-the-badge&logo=openjdk&logoColor=white">
-<img src="https://img.shields.io/badge/Java%20Swing-Desktop%20GUI-1F6FEB?style=for-the-badge">
-<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/JDBC-Connectivity-007396?style=for-the-badge">
-<img src="https://img.shields.io/badge/JavaMail-Email%20Service-4285F4?style=for-the-badge">
-<img src="https://img.shields.io/badge/NetBeans-IDE-1B6AC1?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white">
-
-<br><br>
-
-<a href="#-about-medicare">
-  <img src="https://img.shields.io/badge/About-0D1117?style=for-the-badge">
-</a>
-
-<a href="#-features">
-  <img src="https://img.shields.io/badge/Features-0D1117?style=for-the-badge">
-</a>
-
-<a href="#-workflow">
-  <img src="https://img.shields.io/badge/Workflow-0D1117?style=for-the-badge">
-</a>
-
-<a href="#-technology-stack">
-  <img src="https://img.shields.io/badge/Tech%20Stack-0D1117?style=for-the-badge">
-</a>
-
-<a href="#-getting-started">
-  <img src="https://img.shields.io/badge/Setup-0D1117?style=for-the-badge">
-</a>
-
-<br><br>
-
-<img src="https://img.shields.io/github/stars/kamakashisharma49-design/Doctor-Consultation-?style=flat-square">
-<img src="https://img.shields.io/github/forks/kamakashisharma49-design/Doctor-Consultation-?style=flat-square">
-<img src="https://img.shields.io/github/last-commit/kamakashisharma49-design/Doctor-Consultation-?style=flat-square">
+![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk)
+![Java Swing](https://img.shields.io/badge/Java-Swing-blue?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-Connectivity-green?style=for-the-badge)
+![NetBeans](https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 
 </div>
 
 ---
 
-<div align="center">
+## 📌 About
 
-## 🩺 <em>Healthcare. Simplified.</em>
-
-<p>
-<strong>Find a doctor → Choose a slot → Book an appointment → Track the status</strong>
-</p>
-
-</div>
+**MediCare** is a desktop-based Doctor Consultation System built using
+**Java Swing and MySQL**. It provides separate modules for **patients and doctors**
+with appointment booking, profile management, authentication, OTP password
+recovery, and email notifications.
 
 ---
 
-# 📌 About MediCare
+## ✨ Features
 
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🩺 What is MediCare?
-
-<strong>MediCare</strong> is a desktop-based Doctor Consultation and Appointment Management System developed using <strong>Java Swing</strong> and <strong>MySQL</strong>.
-
-The goal is simple:
-
-> <strong>Make doctor discovery and appointment management easier through a single digital platform.</strong>
-
-The application provides dedicated workflows for both <strong>patients</strong> and <strong>doctors</strong>, allowing each user type to perform the tasks relevant to them.
-
-</td>
-
-<td width="50%" valign="top">
-
-### ⚡ What makes it interesting?
-
-MediCare is more than a basic CRUD application.
-
-It combines:
-
-- 🔐 Authentication
-- 👤 User management
-- 👨‍⚕️ Doctor management
-- 🩺 Speciality-based discovery
-- 📅 Appointment scheduling
-- 📊 Booking status tracking
-- 📧 Email notifications
-- 🔢 OTP verification
-- 🖼️ Profile-picture handling
-- 🗄️ MySQL database integration
-
-</td>
-
-</tr>
-</table>
+| 👤 Patient | 👨‍⚕️ Doctor |
+|---|---|
+| 🔐 Registration & Login | 📝 Registration & Login |
+| 🔑 Password Management | 🔑 Password Management |
+| 🔢 OTP Password Recovery | 🔢 OTP Password Recovery |
+| 👤 Profile Management | 👤 Profile Management |
+| 🩺 Browse Doctors | 🩺 Speciality Profile |
+| 📋 View Doctor Details | 📋 View Appointment Requests |
+| 📅 Book Appointment | ✅ Accept Appointment |
+| ⏰ Select Date & Time | ❌ Decline Appointment |
+| 📊 View Booking History | 🖼️ Profile Picture |
+| 📩 Email Notifications | 📩 Email Notifications |
 
 ---
 
-# 👩‍💻 Developed By
+## 🩺 Available Specialities
 
-<div align="center">
+| ❤️ Cardiologist | 🧠 Neurologist | 🦴 Orthopedic |
+|:---:|:---:|:---:|
+| Heart Care | Neurological Care | Bone & Joint Care |
 
-<table>
-
-<tr>
-
-<td align="center">
-
-<h2>👩‍💻 Kamakshi Sharma</h2>
-
-<p>
-<strong>B.Tech Computer Science & Engineering</strong>
-</p>
-
-<p>
-Java • DSA • SQL • Software Development
-</p>
-
-<p>
-Interested in Cybersecurity, Cloud & Network Security
-</p>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
+| 🧴 Dermatologist | 👶 Pediatrician | 🩺 General Physician |
+|:---:|:---:|:---:|
+| Skin Care | Child Care | General Medical Care |
 
 ---
 
-# 🌟 Project Highlights
+## 🔄 Application Workflow
 
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center" width="25%">
-
-<h1>👤</h1>
-
-<h3>Patient Portal</h3>
-
-<p>
-Register, login, discover doctors,
-book appointments and track bookings.
-</p>
-
-</td>
-
-<td align="center" width="25%">
-
-<h1>👨‍⚕️</h1>
-
-<h3>Doctor Portal</h3>
-
-<p>
-Manage profiles, view appointment
-requests and respond to bookings.
-</p>
-
-</td>
-
-<td align="center" width="25%">
-
-<h1>🔐</h1>
-
-<h3>Secure Recovery</h3>
-
-<p>
-OTP-based password recovery
-through registered email.
-</p>
-
-</td>
-
-<td align="center" width="25%">
-
-<h1>📧</h1>
-
-<h3>Email Integration</h3>
-
-<p>
-Automated email communication
-for important appointment events.
-</p>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
+| Step | Patient | Doctor |
+|---|---|---|
+| 1 | Register / Login | Register / Login |
+| 2 | Browse Specialities | Manage Profile |
+| 3 | Select Doctor | View Requests |
+| 4 | Select Date & Time | Accept / Decline |
+| 5 | Book Appointment | Update Status |
+| 6 | Receive Notification | Receive Notification |
+| 7 | Track Booking Status | — |
 
 ---
 
-# ✨ Features
+## 🏗️ System Architecture
 
-## 👤 Patient / User Module
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center" width="33%">
-
-<h3>🔐 Authentication</h3>
-
-<p>
-User Registration<br>
-User Login<br>
-OTP Password Recovery<br>
-Change Password
-</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h3>🩺 Doctor Discovery</h3>
-
-<p>
-Browse Specialities<br>
-View Doctors<br>
-View Doctor Profiles<br>
-View Doctor Information
-</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h3>📅 Appointment Management</h3>
-
-<p>
-Select Date & Time<br>
-Book Appointment<br>
-View Booking History<br>
-Track Appointment Status
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-<h3>👤 Profile Management</h3>
-
-<p>
-Edit Profile<br>
-Personal Information<br>
-Contact Information
-</p>
-
-</td>
-
-<td align="center">
-
-<h3>📧 Notifications</h3>
-
-<p>
-Booking Confirmation<br>
-Appointment Updates<br>
-Email Communication
-</p>
-
-</td>
-
-<td align="center">
-
-<h3>🔒 Account Management</h3>
-
-<p>
-Forgot Password<br>
-OTP Verification<br>
-Password Reset
-</p>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
+| Layer | Technology | Responsibility |
+|---|---|---|
+| 🖥️ Presentation | Java Swing | User Interface |
+| ⚙️ Application | Java | Business Logic |
+| 🔌 Connectivity | JDBC | Database Communication |
+| 🗄️ Database | MySQL | Data Storage |
+| 📧 Communication | JavaMail | Email & OTP |
+| 🧰 Development | NetBeans | Project Development |
+| 🏗️ Build | Apache Ant | Project Build |
 
 ---
 
-# 👨‍⚕️ Doctor Module
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center" width="33%">
-
-<h3>📝 Doctor Registration</h3>
-
-<p>
-Personal Information<br>
-Speciality<br>
-Experience<br>
-Address<br>
-Consultation Fee
-</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h3>📋 Appointment Management</h3>
-
-<p>
-View Requests<br>
-Accept Requests<br>
-Decline Requests<br>
-Track Bookings
-</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h3>👤 Professional Profile</h3>
-
-<p>
-Edit Profile<br>
-Profile Picture<br>
-Professional Information
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-<h3>🔐 Authentication</h3>
-
-<p>
-Doctor Login<br>
-OTP Recovery<br>
-Change Password
-</p>
-
-</td>
-
-<td align="center">
-
-<h3>📧 Notifications</h3>
-
-<p>
-New Booking Alerts<br>
-Appointment Updates<br>
-Email Communication
-</p>
-
-</td>
-
-<td align="center">
-
-<h3>🩺 Speciality</h3>
-
-<p>
-Speciality Profiles<br>
-Doctor Information<br>
-Patient Consultation
-</p>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
-
----
-
-# 📧 Email & OTP System
-
-<div align="center">
-
-<p>
-MediCare integrates an email communication layer to handle
-<strong>OTP verification and appointment-related notifications.</strong>
-</p>
-
-</div>
-
-<table>
-<tr>
-
-<td align="center" width="20%">
-<h2>🔢</h2>
-<strong>OTP</strong>
-<br>
-Password Recovery
-</td>
-
-<td align="center" width="20%">
-<h2>📩</h2>
-<strong>Booking</strong>
-<br>
-Confirmation
-</td>
-
-<td align="center" width="20%">
-<h2>👨‍⚕️</h2>
-<strong>Doctor</strong>
-<br>
-New Booking Alert
-</td>
-
-<td align="center" width="20%">
-<h2>✅</h2>
-<strong>Accepted</strong>
-<br>
-Appointment Update
-</td>
-
-<td align="center" width="20%">
-<h2>❌</h2>
-<strong>Declined</strong>
-<br>
-Appointment Update
-</td>
-
-</tr>
-</table>
-
----
-
-## 🔐 OTP Password Recovery
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center">
-
-<h3>01</h3>
-📧
-<br>
-<strong>Enter Registered Email</strong>
-
-</td>
-
-<td align="center">→</td>
-
-<td align="center">
-
-<h3>02</h3>
-🔢
-<br>
-<strong>Generate OTP</strong>
-
-</td>
-
-<td align="center">→</td>
-
-<td align="center">
-
-<h3>03</h3>
-📩
-<br>
-<strong>Send OTP</strong>
-
-</td>
-
-<td align="center">→</td>
-
-<td align="center">
-
-<h3>04</h3>
-🔐
-<br>
-<strong>Verify OTP</strong>
-
-</td>
-
-<td align="center">→</td>
-
-<td align="center">
-
-<h3>05</h3>
-🔑
-<br>
-<strong>Reset Password</strong>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<strong>
-Email → OTP → Verification → Password Reset → Account Recovery
-</strong>
-
-</div>
-
----
-
-# 🩺 Available Specialities
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center" width="33%">
-
-<h1>❤️</h1>
-<h3>Cardiologist</h3>
-<p>Heart & Cardiovascular Care</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h1>🧠</h1>
-<h3>Neurologist</h3>
-<p>Nervous System Care</p>
-
-</td>
-
-<td align="center" width="33%">
-
-<h1>🦴</h1>
-<h3>Orthopedic</h3>
-<p>Bones & Musculoskeletal Care</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-<h1>👶</h1>
-<h3>Pediatrician</h3>
-<p>Children's Healthcare</p>
-
-</td>
-
-<td align="center">
-
-<h1>🧴</h1>
-<h3>Dermatologist</h3>
-<p>Skin & Dermatological Care</p>
-
-</td>
-
-<td align="center">
-
-<h1>🩺</h1>
-<h3>General Physician</h3>
-<p>General Healthcare</p>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
-
----
-
-# 🔄 Workflow
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center" width="50%">
-
-<h2>👤 PATIENT JOURNEY</h2>
-
-<br>
-
-🏠 <strong>Welcome</strong>
-
-<br>↓<br>
-
-📝 <strong>Register / Login</strong>
-
-<br>↓<br>
-
-🏥 <strong>Select Speciality</strong>
-
-<br>↓<br>
-
-👨‍⚕️ <strong>Choose Doctor</strong>
-
-<br>↓<br>
-
-📅 <strong>Select Date & Time</strong>
-
-<br>↓<br>
-
-📝 <strong>Book Appointment</strong>
-
-<br>↓<br>
-
-📊 <strong>Track Status</strong>
-
-<br>↓<br>
-
-📧 <strong>Receive Updates</strong>
-
-</td>
-
-<td align="center" width="50%">
-
-<h2>👨‍⚕️ DOCTOR JOURNEY</h2>
-
-<br>
-
-🏠 <strong>Welcome</strong>
-
-<br>↓<br>
-
-📝 <strong>Register / Login</strong>
-
-<br>↓<br>
-
-👤 <strong>Manage Profile</strong>
-
-<br>↓<br>
-
-📋 <strong>View Requests</strong>
-
-<br>↓<br>
-
-✅ <strong>Accept</strong>
-
-&nbsp; / &nbsp;
-
-❌ <strong>Decline</strong>
-
-<br>↓<br>
-
-📧 <strong>Appointment Update</strong>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
-
----
-
-# 🏗️ System Architecture
-
-<div align="center">
+## 🗄️ Database
+
+| Property | Details |
+|---|---|
+| Database | MySQL |
+| Database Name | `doctorconsultationsystem` |
+| Connectivity | JDBC |
+| Operations | CRUD |
+| Main Data | Users, Doctors, Bookings, Profiles |
+| Image Support | Doctor Profile Pictures |
+
+### Database Flow
 
 ```text
-                    🩺 MEDICARE
-                         │
-          ┌──────────────┴──────────────┐
-          │                             │
-       👤 USER                       👨‍⚕️ DOCTOR
-          │                             │
-          ▼                             ▼
-   ┌─────────────┐               ┌─────────────┐
-   │Authentication│               │Authentication│
-   │  & Profile  │               │  & Profile  │
-   └──────┬──────┘               └──────┬──────┘
-          │                             │
-          └──────────────┬──────────────┘
-                         │
-                         ▼
-                📅 APPOINTMENT SYSTEM
-                         │
-             ┌───────────┴───────────┐
-             │                       │
-             ▼                       ▼
-       📊 Booking Status        📧 Email Service
-             │                       │
-             └───────────┬───────────┘
-                         │
-                         ▼
-                    🔌 JDBC
-                         │
-                         ▼
-                    🗄️ MySQL
+Java Swing
+    ↓
+Java Application Logic
+    ↓
+JDBC
+    ↓
+MySQL
