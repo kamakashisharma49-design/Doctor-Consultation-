@@ -106,7 +106,7 @@ Speciality
                      📊 Booking Status
 
 ⸻
-## 🛠️ Technology Stack
+🛠️ Technology Stack
 
 <table align="center">
   <tr>
