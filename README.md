@@ -865,7 +865,7 @@ consider giving the repository a ⭐.
 
 <br>
 
-<strong>Built with ❤️ using Java, Java Swing, JDBC & MySQL</strong>
+<strong>Built using Java, Java Swing, JDBC & MySQL</strong>
 
 <br><br>
 
