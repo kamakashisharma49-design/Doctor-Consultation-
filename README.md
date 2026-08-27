@@ -300,101 +300,43 @@ DoctorConsultationSystem/
 </details>
 
 ⸻
-🚀 Getting Started
+## 🚀 Getting Started
 
-1️⃣ Prerequisites
+Follow the steps below to set up and run the **Doctor Consultation System** on your local machine.
 
-Make sure you have installed:
+---
 
-- JDK 26 or a compatible Java version supported by the project
-- Apache NetBeans
-- MySQL Server
-- MySQL Connector/J
-- JavaMail / Jakarta Mail dependencies required by the project
+<details>
+<summary><strong>1️⃣ Prerequisites</strong></summary>
 
-The project was configured in NetBeans with Java source/target level 26.
-⸻
-2️⃣ Clone the Repository
+<br>
 
+Make sure the following software and dependencies are installed:
+
+| Requirement | Purpose |
+|---|---|
+| ☕ <strong>JDK 26</strong> | Run and compile the Java application |
+| 🧰 <strong>Apache NetBeans</strong> | Open and develop the project |
+| 🗄️ <strong>MySQL Server</strong> | Store application data |
+| 🔌 <strong>MySQL Connector/J</strong> | Connect Java with MySQL |
+| 📧 <strong>JavaMail / Jakarta Mail</strong> | Email notifications and OTP functionality |
+
+> 💡 **Note:** The project is configured in NetBeans with **Java source/target level 26**.
+
+</details>
+
+---
+
+<details>
+<summary><strong>2️⃣ Clone the Repository</strong></summary>
+
+<br>
+
+Open your terminal and run:
+
+```bash
 git clone https://github.com/kamakashisharma49-design/Doctor-Consultation-.git
 cd Doctor-Consultation-
-
-⸻
-3️⃣ Set Up MySQL
-
-Create/import the database using the SQL files provided in:
-
-Dump20260822/
-
-
-Import:
-
-doctor_consultation_doctor.sql
-doctor_consultation_user.sql
-doctor_consultation_bookings.sql
-
-
-The application expects the database:
-
-doctor_consultation
-
-⸻
-4️⃣ Configure Database Credentials
-
-Before running the application, open:
-
-src/DBLoader.java
-
-
-and configure your local MySQL connection.
-
-Example:
-
-DriverManager.getConnection(
-    "jdbc:mysql://127.0.0.1:3306/doctor_consultation",
-    "YOUR_USERNAME",
-    "YOUR_PASSWORD"
-);
-
-
-⚠️ Security note: Never commit real database passwords or credentials to GitHub. Use environment variables or a local configuration file that is excluded through .gitignore.
-⸻
-5️⃣ Configure Email / OTP
-
-The email functionality is implemented in:
-
-src/EmailSender.java
-
-
-Configure your own Gmail SMTP credentials using a Gmail App Password, not your normal Gmail password.
-
-For a public GitHub repository, credentials should be stored outside the source code.
-
-A safer approach is:
-
-Environment Variables
-        ↓
-EmailSender.java
-        ↓
-Gmail SMTP
-        ↓
-User / Doctor
-
-⸻
-6️⃣ Open the Project
-
-Open the project in Apache NetBeans:
-
-DoctorConsultationSystem/
-
-
-Allow NetBeans to load the Ant project and required dependencies.
-⸻
-7️⃣ Run the Application
-
-Run the configured main class / application entry point from NetBeans.
-
-The application starts with the MediCare welcome page, from where users can proceed to the appropriate user or doctor workflow.
 ⸻
 🔐 Security Considerations
 
