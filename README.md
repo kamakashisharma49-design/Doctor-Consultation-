@@ -51,9 +51,14 @@ in one integrated system.
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                         ABOUT                          -->
+<!-- ====================================================== -->
+
 <h2>📌 About</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td width="50%" valign="top">
@@ -94,13 +99,19 @@ while doctors can manage profiles and respond to appointment requests.
 </td>
 
 </tr>
+
 </table>
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                       FEATURES                         -->
+<!-- ====================================================== -->
+
 <h2>✨ Features</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td width="50%" valign="top">
@@ -173,97 +184,185 @@ while doctors can manage profiles and respond to appointment requests.
 </td>
 
 </tr>
+
 </table>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                    SPECIALITIES                        -->
+<!-- ====================================================== -->
 
 <h2>🩺 Available Specialities</h2>
 
 <div align="center">
 
-<table width="100%">
+<table width="100%" cellpadding="14" cellspacing="0">
+
 <tr>
 
 <td align="center" width="33%">
+
 <h2>❤️</h2>
+
 <strong>Cardiologist</strong>
+
 <br>
+
 <small>Heart & Cardiovascular Care</small>
+
 </td>
 
 <td align="center" width="33%">
+
 <h2>🧠</h2>
+
 <strong>Neurologist</strong>
+
 <br>
+
 <small>Nervous System Care</small>
+
 </td>
 
 <td align="center" width="33%">
+
 <h2>🦴</h2>
+
 <strong>Orthopedic</strong>
+
 <br>
+
 <small>Bones & Musculoskeletal Care</small>
+
 </td>
 
 </tr>
 
 <tr>
 
-<td align="center" width="33%">
+<td align="center">
+
 <h2>👶</h2>
+
 <strong>Pediatrician</strong>
+
 <br>
+
 <small>Children's Healthcare</small>
+
 </td>
 
-<td align="center" width="33%">
+<td align="center">
+
 <h2>🧴</h2>
+
 <strong>Dermatologist</strong>
+
 <br>
+
 <small>Skin & Dermatological Care</small>
+
 </td>
 
-<td align="center" width="33%">
+<td align="center">
+
 <h2>🩺</h2>
+
 <strong>General Physician</strong>
+
 <br>
+
 <small>General Healthcare</small>
+
 </td>
 
 </tr>
+
 </table>
 
 </div>
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                     MAIN WORKFLOW                      -->
+<!-- ====================================================== -->
+
 <h2>🔄 Workflow</h2>
 
 <div align="center">
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td align="center" width="50%" valign="top">
 
 <h3>👤 PATIENT JOURNEY</h3>
 
-<table width="90%">
-<tr><td align="center"><strong>🏠 Welcome</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📝 Register / Login</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>🏥 Select Speciality</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>👨‍⚕️ Choose Doctor</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📅 Select Date & Time</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📝 Book Appointment</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📊 Track Status</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📧 Receive Updates</strong></td></tr>
+<table width="90%" cellpadding="5" cellspacing="0">
+
+<tr>
+<td align="center"><strong>🏠 Welcome</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📝 Register / Login</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>🏥 Select Speciality</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>👨‍⚕️ Choose Doctor</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📅 Select Date & Time</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📝 Book Appointment</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📊 Track Status</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📧 Receive Updates</strong></td>
+</tr>
+
 </table>
 
 </td>
@@ -272,131 +371,220 @@ while doctors can manage profiles and respond to appointment requests.
 
 <h3>👨‍⚕️ DOCTOR JOURNEY</h3>
 
-<table width="90%">
-<tr><td align="center"><strong>🏠 Welcome</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📝 Register / Login</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>👤 Manage Profile</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📋 View Requests</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>✅ Accept / ❌ Decline</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center"><strong>📧 Appointment Update</strong></td></tr>
+<table width="90%" cellpadding="5" cellspacing="0">
+
+<tr>
+<td align="center"><strong>🏠 Welcome</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📝 Register / Login</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>👤 Manage Profile</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📋 View Requests</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>✅ Accept / ❌ Decline</strong></td>
+</tr>
+
+<tr>
+<td align="center">↓</td>
+</tr>
+
+<tr>
+<td align="center"><strong>📧 Appointment Update</strong></td>
+</tr>
+
 </table>
 
 </td>
 
 </tr>
+
 </table>
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                APPOINTMENT LIFECYCLE                   -->
+<!-- ====================================================== -->
 
 <h2>📅 Appointment Lifecycle</h2>
 
 <div align="center">
 
-<table width="85%">
+<table width="90%" cellpadding="8" cellspacing="0">
+
 <tr>
+
 <td align="center">
 
+<table width="65%" cellpadding="5" cellspacing="0">
+
+<tr>
+<td align="center">
 <strong>👤 Patient Selects Doctor</strong>
+</td>
+</tr>
 
-<br>
-⬇️
+<tr>
+<td align="center">⬇️</td>
+</tr>
 
-<br><br>
-
+<tr>
+<td align="center">
 <strong>📅 Select Date & Time</strong>
+</td>
+</tr>
 
-<br>
-⬇️
+<tr>
+<td align="center">⬇️</td>
+</tr>
 
-<br><br>
-
+<tr>
+<td align="center">
 <strong>📝 Book Appointment</strong>
+</td>
+</tr>
 
-<br>
-⬇️
+<tr>
+<td align="center">⬇️</td>
+</tr>
 
-<br><br>
-
+<tr>
+<td align="center">
 <strong>⏳ PENDING</strong>
+</td>
+</tr>
+
+</table>
 
 <br>
-↙️ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️
 
-<br><br>
+<table width="80%" cellpadding="12" cellspacing="0">
 
-<table width="70%">
 <tr>
 
 <td align="center" width="50%">
-<strong>✅ ACCEPTED</strong>
-<br><br>
-📧
-<br>
-Appointment Accepted
+
+<h3>✅ ACCEPTED</h3>
+
+<p>
+Appointment approved by doctor
+</p>
+
+<p>📧</p>
+
+<strong>Acceptance Email</strong>
+
 </td>
 
 <td align="center" width="50%">
-<strong>❌ DECLINED</strong>
-<br><br>
-📧
-<br>
-Appointment Rejected
+
+<h3>❌ DECLINED</h3>
+
+<p>
+Appointment rejected by doctor
+</p>
+
+<p>📧</p>
+
+<strong>Rejection Email</strong>
+
 </td>
 
 </tr>
+
 </table>
 
 <br>
 
 ⬇️
 
-<br>
+<br><br>
 
 <strong>📧 Email Notification</strong>
 
 </td>
+
 </tr>
+
 </table>
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                  SYSTEM ARCHITECTURE                   -->
+<!-- ====================================================== -->
 
 <h2>🏗️ System Architecture</h2>
 
 <div align="center">
 
-<table width="90%">
+<table width="90%" cellpadding="8" cellspacing="0">
+
 <tr>
+
 <td align="center">
 
-<h3>🩺 MEDICARE</h3>
+<h3>🩺 MEDICARE APPLICATION</h3>
 
-⬇️
+<table width="80%" cellpadding="12" cellspacing="0">
 
-<table width="80%">
 <tr>
 
 <td align="center" width="50%">
-<strong>👤 USER</strong>
-<br><br>
+
+<h3>👤 USER</h3>
+
 Patient Portal
+
+<br><br>
+
+Register • Login • Book • Track
+
 </td>
 
 <td align="center" width="50%">
-<strong>👨‍⚕️ DOCTOR</strong>
-<br><br>
+
+<h3>👨‍⚕️ DOCTOR</h3>
+
 Doctor Portal
+
+<br><br>
+
+Register • Login • Manage • Respond
+
 </td>
 
 </tr>
+
 </table>
 
 <br>
@@ -405,30 +593,38 @@ Doctor Portal
 
 <br>
 
-<h3>📅 APPOINTMENT SYSTEM</h3>
+<h3>📅 APPOINTMENT MANAGEMENT SYSTEM</h3>
 
-⬇️
+<table width="80%" cellpadding="12" cellspacing="0">
 
-<table width="80%">
 <tr>
 
 <td align="center" width="50%">
-<strong>📊 BOOKING STATUS</strong>
-<br><br>
-Pending<br>
-Accepted<br>
-Declined
+
+<h3>📊 BOOKING MANAGEMENT</h3>
+
+⏳ Pending
+<br>
+✅ Accepted
+<br>
+❌ Declined
+
 </td>
 
 <td align="center" width="50%">
-<strong>📧 EMAIL SERVICE</strong>
-<br><br>
-OTP<br>
-Booking Updates<br>
-Appointment Notifications
+
+<h3>📧 EMAIL SERVICE</h3>
+
+🔢 OTP Verification
+<br>
+📅 Booking Confirmation
+<br>
+🔔 Appointment Updates
+
 </td>
 
 </tr>
+
 </table>
 
 <br>
@@ -437,68 +633,109 @@ Appointment Notifications
 
 <br>
 
-<h3>🔌 JDBC</h3>
+<h3>🔌 JDBC CONNECTIVITY</h3>
+
+<br>
 
 ⬇️
 
-<h3>🗄️ MySQL DATABASE</h3>
+<br>
+
+<h3>🗄️ MYSQL DATABASE</h3>
 
 </td>
+
 </tr>
+
 </table>
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                   TECHNOLOGY STACK                     -->
+<!-- ====================================================== -->
 
 <h2>🛠️ Technology Stack</h2>
 
 <div align="center">
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td align="center" width="20%">
+
 <h2>☕</h2>
+
 <strong>Java 26</strong>
+
 <br>
+
 Core Application
+
 </td>
 
 <td align="center" width="20%">
+
 <h2>🖥️</h2>
+
 <strong>Java Swing</strong>
+
 <br>
+
 Desktop GUI
+
 </td>
 
 <td align="center" width="20%">
+
 <h2>🗄️</h2>
+
 <strong>MySQL</strong>
+
 <br>
+
 Database
+
 </td>
 
 <td align="center" width="20%">
+
 <h2>🔌</h2>
+
 <strong>JDBC</strong>
+
 <br>
+
 Connectivity
+
 </td>
 
 <td align="center" width="20%">
+
 <h2>📧</h2>
+
 <strong>JavaMail</strong>
+
 <br>
+
 Email Service
+
 </td>
 
 </tr>
+
 </table>
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                   PROJECT STRUCTURE                    -->
+<!-- ====================================================== -->
 
 <h2>🗂️ Project Structure</h2>
 
@@ -547,6 +784,10 @@ Doctor-Consultation-/
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                       DATABASE                         -->
+<!-- ====================================================== -->
+
 <h2>🗄️ Database</h2>
 
 <p>
@@ -556,39 +797,40 @@ and <strong>JDBC</strong> for database connectivity.
 
 <div align="center">
 
-<table width="80%">
+<table width="75%" cellpadding="10" cellspacing="0">
+
 <tr>
+
 <td align="center">
 
-<strong>☕ Java Application</strong>
+<h3>☕ Java Application</h3>
 
-<br>
 ⬇️
-<br><br>
 
-<strong>🔌 JDBC</strong>
+<h3>🔌 JDBC</h3>
 
-<br>
 ⬇️
-<br><br>
 
-<strong>🗄️ MySQL</strong>
+<h3>🗄️ MySQL</h3>
 
-<br>
 ⬇️
-<br><br>
 
-<strong>🩺 MediCare Database</strong>
+<h3>🩺 MediCare Database</h3>
 
 </td>
+
 </tr>
+
 </table>
 
 </div>
 
-<p>The database manages:</p>
+<p>
+The database manages:
+</p>
 
 <ul>
+
 <li>👤 Users</li>
 <li>👨‍⚕️ Doctors</li>
 <li>📅 Appointments</li>
@@ -597,9 +839,14 @@ and <strong>JDBC</strong> for database connectivity.
 <li>🔐 Authentication</li>
 <li>🔢 OTP Verification</li>
 <li>🖼️ Profile Information</li>
+
 </ul>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                         SETUP                          -->
+<!-- ====================================================== -->
 
 <h2>🚀 Setup</h2>
 
@@ -613,12 +860,14 @@ cd Doctor-Consultation-
 <h3>2️⃣ Requirements</h3>
 
 <ul>
+
 <li>Java JDK</li>
 <li>Apache NetBeans</li>
 <li>MySQL Server</li>
 <li>MySQL Workbench</li>
 <li>MySQL JDBC Driver</li>
 <li>JavaMail dependencies</li>
+
 </ul>
 
 <h3>3️⃣ Create Database</h3>
@@ -627,7 +876,9 @@ cd Doctor-Consultation-
 CREATE DATABASE medicare;
 </pre>
 
-<p>Import the provided SQL file:</p>
+<p>
+Import the provided SQL file:
+</p>
 
 <pre>
 database/medicare.sql
@@ -635,7 +886,9 @@ database/medicare.sql
 
 <h3>4️⃣ Configure Database</h3>
 
-<p>Update <code>DBLoader.java</code>:</p>
+<p>
+Update <code>DBLoader.java</code>:
+</p>
 
 <pre>
 String url = "jdbc:mysql://localhost:3306/medicare";
@@ -670,9 +923,14 @@ Open the project, build it and run the welcome/login screen.
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                       SECURITY                         -->
+<!-- ====================================================== -->
+
 <h2>🔐 Security</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td width="50%" valign="top">
@@ -680,12 +938,14 @@ Open the project, build it and run the welcome/login screen.
 <h3>✅ Implemented</h3>
 
 <ul>
+
 <li>🔐 User authentication</li>
 <li>👨‍⚕️ Doctor authentication</li>
 <li>🔢 OTP-based recovery</li>
 <li>📧 Email verification</li>
 <li>🔑 Password reset</li>
 <li>👥 Separate user & doctor workflows</li>
+
 </ul>
 
 </td>
@@ -695,6 +955,7 @@ Open the project, build it and run the welcome/login screen.
 <h3>🚀 Recommended Improvements</h3>
 
 <ul>
+
 <li>BCrypt / Argon2 password hashing</li>
 <li>Prepared statements</li>
 <li>OTP expiration</li>
@@ -703,18 +964,25 @@ Open the project, build it and run the welcome/login screen.
 <li>Environment-based secrets</li>
 <li>Input validation</li>
 <li>Role-based authorization</li>
+
 </ul>
 
 </td>
 
 </tr>
+
 </table>
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                    PROJECT OBJECTIVES                  -->
+<!-- ====================================================== -->
+
 <h2>🎯 Project Objectives</h2>
 
 <ul>
+
 <li>🩺 Simplify doctor discovery</li>
 <li>📅 Make appointment booking easier</li>
 <li>👤 Provide separate patient and doctor workflows</li>
@@ -723,18 +991,25 @@ Open the project, build it and run the welcome/login screen.
 <li>🔐 Provide OTP-based password recovery</li>
 <li>🗄️ Maintain data using MySQL</li>
 <li>🖥️ Provide a simple desktop healthcare experience</li>
+
 </ul>
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                  FUTURE ENHANCEMENTS                   -->
+<!-- ====================================================== -->
+
 <h2>🚀 Future Enhancements</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
+
 <tr>
 
 <td width="50%" valign="top">
 
 <ul>
+
 <li>🌐 Web-based version</li>
 <li>📱 Android / iOS application</li>
 <li>💳 Online payments</li>
@@ -742,6 +1017,7 @@ Open the project, build it and run the welcome/login screen.
 <li>📄 Digital prescriptions</li>
 <li>🧾 Medical reports</li>
 <li>🔔 Real-time notifications</li>
+
 </ul>
 
 </td>
@@ -749,20 +1025,27 @@ Open the project, build it and run the welcome/login screen.
 <td width="50%" valign="top">
 
 <ul>
+
 <li>📍 Location-based doctor discovery</li>
 <li>⭐ Doctor ratings & reviews</li>
 <li>🤖 AI-based recommendations</li>
 <li>📊 Admin dashboard</li>
 <li>☁️ Cloud database</li>
 <li>🔐 Advanced role-based access</li>
+
 </ul>
 
 </td>
 
 </tr>
+
 </table>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                       DEVELOPER                        -->
+<!-- ====================================================== -->
 
 <h2>👩‍💻 Developer</h2>
 
@@ -783,14 +1066,22 @@ Cybersecurity • Cloud Security • Network Security
 <br>
 
 <img src="https://img.shields.io/badge/Java-Programming-orange?style=for-the-badge&logo=openjdk&logoColor=white">
+
 <img src="https://img.shields.io/badge/DSA-Learning-blue?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/SQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+
 <img src="https://img.shields.io/badge/Cybersecurity-Interest-red?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/Cloud%20Security-Interest-purple?style=for-the-badge">
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                     CONTRIBUTING                       -->
+<!-- ====================================================== -->
 
 <h2>🤝 Contributing</h2>
 
@@ -800,49 +1091,61 @@ Contributions, suggestions and improvements are welcome.
 
 <div align="center">
 
-<table width="90%">
+<table width="95%" cellpadding="8" cellspacing="0">
+
 <tr>
 
 <td align="center">
-🍴 <strong>Fork</strong>
+🍴<br>
+<strong>Fork</strong>
 </td>
 
 <td align="center">→</td>
 
 <td align="center">
-🌿 <strong>Create Branch</strong>
+🌿<br>
+<strong>Create Branch</strong>
 </td>
 
 <td align="center">→</td>
 
 <td align="center">
-💻 <strong>Make Changes</strong>
+💻<br>
+<strong>Make Changes</strong>
 </td>
 
 <td align="center">→</td>
 
 <td align="center">
-📝 <strong>Commit</strong>
+📝<br>
+<strong>Commit</strong>
 </td>
 
 <td align="center">→</td>
 
 <td align="center">
-🚀 <strong>Push</strong>
+🚀<br>
+<strong>Push</strong>
 </td>
 
 <td align="center">→</td>
 
 <td align="center">
-🔀 <strong>Pull Request</strong>
+🔀<br>
+<strong>Pull Request</strong>
 </td>
 
 </tr>
+
 </table>
 
 </div>
 
 <hr>
+
+<!-- ====================================================== -->
+<!--                        SUPPORT                         -->
+<!-- ====================================================== -->
 
 <h2>⭐ Support</h2>
 
@@ -857,6 +1160,10 @@ consider giving the repository a ⭐.
 
 <hr>
 
+<!-- ====================================================== -->
+<!--                         FOOTER                         -->
+<!-- ====================================================== -->
+
 <div align="center">
 
 <h1>🩺 MediCare</h1>
@@ -865,7 +1172,7 @@ consider giving the repository a ⭐.
 
 <br>
 
-<strong>Built using Java, Java Swing, JDBC & MySQL</strong>
+<strong>Built with ❤️ using Java, Java Swing, JDBC & MySQL</strong>
 
 <br><br>
 
@@ -878,7 +1185,9 @@ consider giving the repository a ⭐.
 <br><br>
 
 <a href="https://github.com/kamakashisharma49-design/Doctor-Consultation-">
+
 <img src="https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github">
+
 </a>
 
 </div>
