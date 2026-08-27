@@ -175,62 +175,65 @@ The booking table also contains a uniqueness constraint for a doctor's date/time
 The project is organized into separate screens for users, doctors, authentication, speciality-based doctor browsing, database connectivity, and email/OTP services.
 
 <details>
-<summary><strong>📁 View Project Structure</strong></summary>
+<summary><strong>📁 Click to expand project structure</strong></summary>
 
+<br>
 
+<pre>
 DoctorConsultationSystem/
 │
-├── src/
-│   ├── WelcomePage.java
+├── 📁 src/
+│   │
+│   ├── 🏠 WelcomePage.java
 │   │
 │   ├── 👤 User Module
-│   ├── UserLogin.java
-│   ├── UserRegisteration.java
-│   ├── UserHome.java
-│   ├── UserBooking.java
-│   ├── UserViewBooking.java
-│   ├── UserEditProfile.java
-│   ├── UserForgotPassword.java
-│   ├── UserOTPVerification.java
-│   ├── UserResetPassword.java
-│   ├── UserNewPassword.java
-│   └── UserChangePassword.java
-│
+│   │   ├── UserLogin.java
+│   │   ├── UserRegisteration.java
+│   │   ├── UserHome.java
+│   │   ├── UserBooking.java
+│   │   ├── UserViewBooking.java
+│   │   ├── UserEditProfile.java
+│   │   ├── UserForgotPassword.java
+│   │   ├── UserOTPVerification.java
+│   │   ├── UserResetPassword.java
+│   │   ├── UserNewPassword.java
+│   │   └── UserChangePassword.java
+│   │
 │   ├── 👨‍⚕️ Doctor Module
-│   ├── DoctorLogin.java
-│   ├── DoctorRegisteration.java
-│   ├── DoctorHomePage.java
-│   ├── DoctorViewBookings.java
-│   ├── DoctorEditProfile.java
-│   ├── DoctorForgotPassword.java
-│   ├── DoctorOTPVerification.java
-│   └── DoctorResetPassword.java
-│
+│   │   ├── DoctorLogin.java
+│   │   ├── DoctorRegisteration.java
+│   │   ├── DoctorHomePage.java
+│   │   ├── DoctorViewBookings.java
+│   │   ├── DoctorEditProfile.java
+│   │   ├── DoctorForgotPassword.java
+│   │   ├── DoctorOTPVerification.java
+│   │   └── DoctorResetPassword.java
+│   │
 │   ├── 🩺 Speciality Screens
-│   ├── Cardiologist.java
-│   ├── Dermatologist.java
-│   ├── GeneralPhysician.java
-│   ├── Neurologist.java
-│   ├── Orthopedic.java
-│   └── Pediatrician.java
+│   │   ├── Cardiologist.java
+│   │   ├── Dermatologist.java
+│   │   ├── GeneralPhysician.java
+│   │   ├── Neurologist.java
+│   │   ├── Orthopedic.java
+│   │   └── Pediatrician.java
+│   │
+│   └── ⚙️ Utility & Services
+│       ├── DBLoader.java
+│       ├── EmailSender.java
+│       └── OTPUtil.java
 │
-│   ├── ⚙️ Utility & Services
-│   ├── DBLoader.java
-│   ├── EmailSender.java
-│   └── OTPUtil.java
+├── 📁 uploads/
+│   └── 🖼️ doctor profile images
 │
-├── uploads/
-│   └── doctor profile images
+├── 📁 nbproject/
+├── 📄 build.xml
+└── 📄 manifest.mf
 │
-├── nbproject/
-├── build.xml
-└── manifest.mf
-
-Dump20260822/
-├── doctor_consultation_doctor.sql
-├── doctor_consultation_user.sql
-└── doctor_consultation_bookings.sql
-
+└── 📁 Dump20260822/
+    ├── doctor_consultation_doctor.sql
+    ├── doctor_consultation_user.sql
+    └── doctor_consultation_bookings.sql
+</pre>
 
 </details>
 
@@ -346,31 +349,6 @@ Before using it in a production healthcare environment, additional security meas
 - 🔒 Encryption for sensitive patient information
 - 📝 Audit logging
 - 🏥 Compliance with applicable healthcare data-protection requirements
-⸻
-📸 Screenshots
-
-Add screenshots of the application's major screens here to make the repository more visually appealing.
-
-Recommended screenshots:
-
-📌 Welcome Page
-📌 User Login / Registration
-📌 User Home Page
-📌 Doctor Listing
-📌 Doctor Profile
-📌 Appointment Booking
-📌 User Booking History
-📌 Doctor Dashboard
-📌 Doctor Appointment Requests
-📌 OTP / Password Recovery
-
-
-Example:
-
-![Welcome Page](screenshots/welcome-page.png)
-![Doctor Listing](screenshots/doctor-list.png)
-![Appointment Booking](screenshots/booking.png)
-
 ⸻
 🎯 Project Objectives
 
