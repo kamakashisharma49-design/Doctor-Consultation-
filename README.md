@@ -333,31 +333,6 @@ Before using it in a production healthcare environment, additional security meas
 - 📝 Audit logging
 - 🏥 Compliance with applicable healthcare data-protection requirements
 ⸻
-📸 Screenshots
-
-Add screenshots of the application's major screens here to make the repository more visually appealing.
-
-Recommended screenshots:
-
-📌 Welcome Page
-📌 User Login / Registration
-📌 User Home Page
-📌 Doctor Listing
-📌 Doctor Profile
-📌 Appointment Booking
-📌 User Booking History
-📌 Doctor Dashboard
-📌 Doctor Appointment Requests
-📌 OTP / Password Recovery
-
-
-Example:
-
-![Welcome Page](screenshots/welcome-page.png)
-![Doctor Listing](screenshots/doctor-list.png)
-![Appointment Booking](screenshots/booking.png)
-
-⸻
 🎯 Project Objectives
 
 The project was developed to demonstrate how a complete desktop application can combine:
