@@ -427,3 +427,83 @@ If you find this project useful or interesting, consider giving the repository a
   <strong>🩺 MediCare</strong><br>
   <em>Connect • Consult • Care</em>
 </p>
+
+## 👩‍💻 About the Developer
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <h2>👩‍💻</h2>
+      <strong>Kamakshi Sharma</strong>
+    </td>
+    <td>
+      <h3>🎓 B.Tech Computer Science & Engineering</h3>
+
+      I am a <strong>Computer Science & Engineering student</strong> passionate about building practical software applications and continuously improving my problem-solving and development skills.
+
+      I enjoy working with <strong>Java, Data Structures & Algorithms, SQL, and Software Development</strong>, and I am also exploring areas such as <strong>Cybersecurity, Cloud & Network Security, and AI</strong>.
+
+      <br><br>
+
+      This <strong>Doctor Consultation System</strong> is one of my projects focused on applying programming, GUI development, database management, authentication, and real-world application design to build a complete desktop-based solution.
+    </td>
+  </tr>
+</table>
+
+---
+
+### 💻 Technical Interests
+
+<table align="center">
+  <tr>
+    <td align="center">☕<br><strong>Java</strong></td>
+    <td align="center">🧩<br><strong>DSA</strong></td>
+    <td align="center">🗄️<br><strong>SQL & Databases</strong></td>
+    <td align="center">🔐<br><strong>Cybersecurity</strong></td>
+  </tr>
+  <tr>
+    <td align="center">☁️<br><strong>Cloud & Network Security</strong></td>
+    <td align="center">🤖<br><strong>AI & Emerging Tech</strong></td>
+    <td align="center">💻<br><strong>Software Development</strong></td>
+    <td align="center">🚀<br><strong>Problem Solving</strong></td>
+  </tr>
+</table>
+
+---
+
+### 🌱 Currently Learning
+
+- 🧩 Data Structures & Algorithms
+- ☕ Advanced Java & Object-Oriented Programming
+- 🗄️ SQL & Database Management
+- 🔐 Cybersecurity
+- ☁️ Cloud & Network Security
+- 🤖 AI & AI-powered tools
+
+---
+
+🎯 Career Goal
+
+> **To become a skilled software engineer with strong problem-solving abilities and expertise in cybersecurity and modern technologies.**
+
+I am continuously working on projects, participating in hackathons, and solving coding problems to strengthen both my **technical knowledge and real-world development skills**.
+
+---
+
+📫 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/kamakashisharma49-design">
+    <img src="https://img.shields.io/badge/GitHub-Kamakshi%20Sharma-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://leetcode.com/u/kamakshi23/">
+    <img src="https://img.shields.io/badge/LeetCode-Kamakshi23-orange?style=for-the-badge&logo=leetcode" alt="LeetCode">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <strong>✨ Thanks for visiting my project!</strong><br>
+  <em>Always learning • Always building • Always improving 🚀</em>
+</p>
