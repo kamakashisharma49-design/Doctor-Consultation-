@@ -106,15 +106,77 @@ Speciality
                      📊 Booking Status
 
 ⸻
-🛠️ Technology Stack
-Technology	Purpose
-☕ Java	Core application development
-🖥️ Java Swing	Desktop graphical user interface
-🗄️ MySQL	Persistent data storage
-🔌 JDBC	Java–MySQL database connectivity
-📧 JavaMail	Email and OTP communication
-🧰 Apache NetBeans	Development environment
-🏗️ Ant	Project build system
+## 🛠️ Technology Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="160">
+      ☕<br>
+      <strong>Java</strong>
+    </td>
+    <td align="center" width="160">
+      🖥️<br>
+      <strong>Java Swing</strong>
+    </td>
+    <td align="center" width="160">
+      🗄️<br>
+      <strong>MySQL</strong>
+    </td>
+    <td align="center" width="160">
+      🔌<br>
+      <strong>JDBC</strong>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      Core Application
+    </td>
+    <td align="center">
+      Desktop GUI
+    </td>
+    <td align="center">
+      Database
+    </td>
+    <td align="center">
+      DB Connectivity
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="160">
+      📧<br>
+      <strong>JavaMail</strong>
+    </td>
+    <td align="center" width="160">
+      🧰<br>
+      <strong>NetBeans</strong>
+    </td>
+    <td align="center" width="160">
+      🏗️<br>
+      <strong>Apache Ant</strong>
+    </td>
+    <td align="center" width="160">
+      🔐<br>
+      <strong>OTP</strong>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      Email & OTP
+    </td>
+    <td align="center">
+      Development IDE
+    </td>
+    <td align="center">
+      Build System
+    </td>
+    <td align="center">
+      Authentication
+    </td>
+  </tr>
+</table>
 ⸻
 🗃️ Database Design
 
