@@ -121,7 +121,7 @@ It supports:
           Select Doctor             View Requests
                   │                         │
        Select Date & Time          Accept / Decline
-                  │                         │
+                  │
              Book Slot
                   │
                   └──────────┬──────────────┘
